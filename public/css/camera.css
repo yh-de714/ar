@@ -1,0 +1,266 @@
+.camera {
+    background-image: url(/assets/img/photo.png);
+    background-size: cover;
+}
+
+.btn-close {
+    width: 39rem;
+    position: absolute;
+    top: 49rem;
+    right: 49rem;
+    cursor: pointer;
+}
+
+.box-bottom {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 118rem;
+}
+
+.box-bottom.show {
+    display: flex;
+}
+
+.box-btn img {
+    margin: 0 20rem;
+    cursor: pointer;
+    width: 63px;
+    border-radius: 50%;
+    padding: 11px;
+    border: solid 1px;
+}
+
+.box-stone, .box-material, .bg-modal {
+    background-color: #000000aa;
+    backdrop-filter: blur(10px);
+}
+
+.innerbox-stone {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item-stone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 22rem;
+}
+
+.img-stone {
+    width: 56rem;
+    height: 56rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.item-stone-active .img-stone {
+    border: 3px solid #707070;
+}
+
+.img-stone img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.name-stone {
+    font-size: 10rem;
+    margin-top: 8rem;
+}
+
+.item-material {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 22rem;
+}
+
+.img-material {
+    width: 56rem;
+    height: 56rem;
+    border-radius: 100%;
+}
+
+.item-material-silver .img-material {
+    background-color: #E3E3E3;
+}
+
+.item-material-brass .img-material {
+    background-color: #E3DDA3;
+}
+
+.item-material-pinkgold .img-material {
+    background-color: #E3D0CD;
+}
+
+.item-material-18kgold .img-material {
+    background-color: #E9D499;
+}
+
+.item-material-platinum .img-material {
+    background-color: #D1D1D1;
+}
+
+.item-material-active .img-material {
+    border: 2px solid #ffffff;
+}
+
+.name-material {
+    font-size: 10rem;
+    margin-top: 8rem;
+}
+
+.bg-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 577rem;
+    border-radius: 10rem;
+    overflow: hidden;
+}
+
+.modal .photo {
+    width: 100%;
+    height: 402rem;
+    object-fit: cover;
+}
+
+.modal .box-share {
+    width: 100%;
+    height: 186rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000aa;
+    margin-top: -6rem;
+}
+
+.modal .ttl-box {
+    margin-top: 34rem;
+    font-size: 20rem;
+}
+
+.modal .box-link {
+    margin-top: 23rem;
+    width: 182rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal .box-link img {
+    width: 44rem;
+    height: 44rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: calc(100vw/768);
+    }
+            
+    .box-btn img {
+        margin: 0 13rem;
+        cursor: pointer;
+    }
+    
+    .box-btn {
+        height: 184rem;
+    }
+
+    .box-stone {
+        height: 358rem;
+        padding: 73rem 84rem;
+    }
+    
+    .box-material {
+        height: 182rem;
+    }
+            
+    .modal {
+        width: 564rem;
+        border-radius: 10rem;
+        overflow: hidden;
+    }
+    
+    .modal .photo {
+        width: 100%;
+        height: 617rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: calc(100vw/390);
+    }
+    
+    .box-btn {
+        bottom: 50rem;
+    }
+
+    .box-stone {
+        padding: 20rem 0 100rem;
+    }
+
+    .innerbox-stone {
+        overflow: auto;
+    }
+    
+    .box-material {
+        height: 282rem;
+        padding-bottom: 100rem;
+        padding: 20rem 35rem 100rem;
+        justify-content: flex-start;
+    }
+
+    .item-material {
+        margin: 0 12rem;
+    }
+        
+    .bg-modal {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .modal {
+        width: 301rem;
+        border-radius: 10rem;
+        overflow: hidden;
+    }
+    
+    .modal .photo {
+        width: 100%;
+        height: 402rem;
+    }
+}

@@ -1,0 +1,234 @@
+.main .sidebar {
+    width: 297rem;
+    min-height: 100vh;
+    background-image: linear-gradient(#000, #2E2E2E);
+    padding-top: 41rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+}
+
+.main .sidebar .logo {
+    margin-left: -70rem;
+    font-size: 18rem;
+}
+
+.main .sidebar .btn-upload {
+    width: 205rem;
+    height: 40rem;
+    background-color: #1EB5B0;
+    font-size: 10rem;
+    margin-top: 63rem;
+}
+
+.main .sidebar .btn-myring {
+    width: 205rem;
+    height: 40rem;
+    background-color: #343434;
+    font-size: 10rem;
+    margin-top: 30rem;
+}
+
+.main .sidebar .txt-comingsoon {
+    margin-top: 45rem;
+    font-size: 10rem;
+}
+
+.main main {
+    position: relative;
+    width: 100%;
+    padding-left: 297rem;
+}
+
+.main {
+    display: flex;
+}
+
+.main .board {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    overflow: auto;
+}
+
+.main .board-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .board-full {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 193rem;
+    padding-left: 73rem;
+}
+
+.main .box-btn-account {
+    position: absolute;
+    top: 29rem;
+    right: 77rem;
+    z-index: 10;
+}
+
+.main .box-btn-account:hover .nav-account {
+    display: block;
+}
+
+.main .btn-account {
+    width: 178rem;
+    height: 45rem;
+    background-color: #262626;
+}
+
+.main .nav-account {
+    display: none;
+    margin-top: 15rem;
+}
+
+.main .item-nav-account {
+    width: 178rem;
+    height: 30rem;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background-color: #3C3C3C;
+    border: none;
+}
+
+.main .item-nav-account:hover {
+    background-color: #777777;
+}
+
+.main .subttl {
+    position: absolute;
+    top: 135rem;
+    left: 390rem;
+    font-size: 18rem;
+}
+
+.main .ring {
+    width: 245rem;
+    margin: 0 50rem 60rem 0;
+}
+
+.main .ring img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4rem;
+    border: 2px solid #1EB5B0;
+}
+
+.main .ring .content-ring {
+    margin-top: 16rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.main .ring .name-ring {
+    color: #AFAFAF;
+    font-size: 10rem;
+}
+
+.main .btn-showmore-ring {
+    color: #707070;
+    font-size: 30px;
+    line-height: 0.2;
+    margin-top: -20rem;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.main .btn-delete-ring {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background: #F44336;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main .sidebar .btn-setting {
+    width: 205rem;
+    height: 45rem;
+    background-color: #313131;
+}
+
+.main-setting .board {
+    padding-left: 73rem;
+    padding-top: 135rem;
+    height: unset;
+}
+
+.main-setting .subttl {
+    position: initial;
+}
+
+.main-setting .ttl-input {
+    font-size: 12rem;
+    margin-top: 37rem;
+}
+
+.main-setting input {
+    width: 438rem;
+    height: 64rem;
+    background-color: #333333;
+    border-radius: 4px;
+    border: none;
+    margin-top: 13rem;
+    color: white;
+    padding-left: 5px;
+}
+
+.main-setting .subttl-plan {
+    margin-top: 125rem;
+}
+
+.main-setting .plan {
+    width: 438rem;
+    margin-top: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-setting .plan .name-plan {
+    font-size: 12rem;
+    position: relative;
+    padding-left: 16rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-setting .plan .name-plan::before {
+    content: '';
+    width: 11rem;
+    height: 11rem;
+    border-radius: 100%;
+    background-color: #1EB5B0;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    border: 2px solid #fff;
+}
+
+.main-setting 
+
+.main-setting .plan .money-plan {
+    font-size: 12rem;
+}
+
+.main-setting .btn-change-plan {
+    width: 438rem;
+    height: 64rem;
+    background-color: #1EB5B0;
+    margin-top: 78rem;
+}
